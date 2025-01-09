@@ -1,0 +1,7 @@
+type: "Item" // アイテムの種類
+name: "exampleItem", // アイテムの名前（内部名）
+displayName: "Example_Item", // アイテムの表示名
+description: "An example item for demonstration.", // アイテムの説明
+icon: "icons/exampleItem.png", // アイテムのアイコン（画像ファイル）
+stackSize: 50, // アイテムの最大スタック数
+color: 000000ff
