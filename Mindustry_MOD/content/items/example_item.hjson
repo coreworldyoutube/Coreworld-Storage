@@ -1,7 +1,10 @@
-type: "Item" // アイテムの種類
-name: "exampleItem", // アイテムの名前（内部名）
-displayName: "Example_Item", // アイテムの表示名
-description: "An example item for demonstration.", // アイテムの説明
-icon: "icons/exampleItem.png", // アイテムのアイコン（画像ファイル）
-stackSize: 50, // アイテムの最大スタック数
-color: 000000ff
+type: item //type is item
+name: example_item //you can named 
+hardness: 0 //drill hardness of the item
+cost: 1.0 //base material cost of this item, used for calculating place times 1 cost = 1 tick added to build time
+color: 000000ff //Color
+flammability: 0 //flammability above 0.3 makes this eligible for item burners.
+charge: 0 //how electrically potent this item is.
+radioactivity: 0 //how radioactive this item is.
+explosiveness: 0 //how explosive this item is.
+description: "example_description" //you can write description
